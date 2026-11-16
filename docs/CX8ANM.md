@@ -77,7 +77,7 @@ Plan de port (requiere probar en un X6200 real, por eso no está en esta rama):
 
 ## Qué trae esta rama
 
-- **Español** en toda la app (`x6100mb/i18n_es.py`, 251 textos + la ayuda de Doom), elegible en el
+- **Español** en toda la app (`x6100mb/i18n_es.py`, 251 textos + la ayuda de Doom, con voseo como el firmware), elegible en el
   selector de idioma y automático en sistemas en español. Si falta algún texto, cae a inglés y luego a
   polaco. Los textos que muestra la radio en U-Boot van sin tildes (la fuente de la consola no las tiene).
 - Prueba automática `tests/test_i18n_es.py`: todos los textos traducidos, mismas `{variables}`, textos de
@@ -88,9 +88,9 @@ Plan de port (requiere probar en un X6200 real, por eso no está en esta rama):
 
 ## Cómo probar
 
-1. GitHub → Actions → *Build* → la corrida de `cx8anm-prueba` → descargar el artifact de tu sistema
+1. GitHub → Actions → *Build* → la corrida de `cx8anm-prueba` → descargá el artifact de tu sistema
    (macOS en tu caso).
-2. Abrir la app → arriba a la derecha **Idioma: Español**.
+2. Abrí la app → arriba a la derecha **Idioma: Español**.
 3. **+ Desde internet…** → CX8ANM (última) + OpenX6X00 + **+ Xiegu desde la eMMC**.
 4. Partición DATA: **una por sistema**. **Grabar en la tarjeta** (o **Guardar como archivo .img…** y
    balenaEtcher).
@@ -104,4 +104,4 @@ Plan de port (requiere probar en un X6200 real, por eso no está en esta rama):
   p2 (`/proc/cmdline`), que hay que rearmar la tarjeta con Multi-Boot.
 - Logo propio de CX8ANM 1.1.x en `OpenX6X00-CX8ANM/boot/logo.png` (vale para la radio y para el catálogo).
 - Port al X6200 (arriba).
-- Proponer el español a SQ6RT con un pull request, si quieres que llegue a la versión oficial.
+- Proponer el español a SQ6RT con un pull request, si querés que llegue a la versión oficial.

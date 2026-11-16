@@ -8,7 +8,7 @@ ES = {
     "aplikacja: SQ6RT":
         "aplicación de SQ6RT",
     "Kilka systemów na jednej karcie SD dla Xiegu X6100: przy włączaniu radia menu na ekranie, wybór klawiszem F1–F5.":
-        "Varios sistemas en una sola tarjeta SD para el Xiegu X6100: un menú en la pantalla de la radio al encender; eliges con las teclas F1–F5.",
+        "Varios sistemas en una sola tarjeta SD para el Xiegu X6100: un menú en la pantalla de la radio al encender; elegís con las teclas F1–F5.",
     "Język:":
         "Idioma:",
     "Łączenie…":
@@ -20,9 +20,9 @@ ES = {
     "Przenieś ustawienia ze starej karty (DATA: {p})":
         "Pasar los ajustes de la tarjeta vieja (DATA: {p})",
     "Przenieś ustawienia: włóż starą kartę i kliknij Odśwież":
-        "Pasar ajustes: pon la tarjeta vieja y pulsa Actualizar",
+        "Pasar ajustes: poné la tarjeta vieja y pulsá Actualizar",
     "Nie widać partycji DATA. Włóż kartę z radia do czytnika, poczekaj, aż komputer ją pokaże, i kliknij Odśwież.":
-        "No se ve ninguna partición DATA. Pon la tarjeta de la radio en el lector, espera a que la computadora la muestre y pulsa Actualizar.",
+        "No se ve ninguna partición DATA. Poné la tarjeta de la radio en el lector, esperá a que la computadora la muestre y pulsá Actualizar.",
     "Kopia ustawień zapisana:\n{path}":
         "Ajustes guardados en:\n{path}",
     "Ustawienia ze starej karty: {n} plików przeniesionych; kopia: {zip}":
@@ -40,15 +40,15 @@ ES = {
     "Menu na ekranie radia":
         "El menú en la pantalla de la radio",
     "Kliknij kafelek, żeby go zaznaczyć; dwuklik zmienia nazwę.":
-        "Haz clic en un recuadro para elegirlo; doble clic le cambia el nombre.",
+        "Hacé clic en un recuadro para elegirlo; doble clic le cambia el nombre.",
     "Tu zobaczysz menu dokładnie tak, jak pokaże je radio. Zacznij od „+ Z internetu…”: wybierz system, a aplikacja sama go pobierze.":
-        "Aquí ves el menú tal como lo mostrará la radio. Empieza con “+ Desde internet…”: elige un sistema y la aplicación lo descarga.",
+        "Acá ves el menú tal como lo mostrará la radio. Empezá con “+ Desde internet…”: elegí un sistema y la aplicación lo descarga.",
     "Ustawienia menu":
         "Ajustes del menú",
     "Zapis karty":
         "Grabar la tarjeta",
     "Lista jest pusta. Zacznij od „+ Z internetu…”: wybierz system, a aplikacja sama go pobierze.":
-        "La lista está vacía. Empieza con “+ Desde internet…”: elige un sistema y la aplicación lo descarga.",
+        "La lista está vacía. Empezá con “+ Desde internet…”: elegí un sistema y la aplicación lo descarga.",
     "Klawisz":
         "Tecla",
     "Nazwa w menu":
@@ -110,7 +110,7 @@ ES = {
     "Zapisz jako plik .img…":
         "Guardar como archivo .img…",
     "Dodaj obraz karty systemu (.img, .img.zip lub .img.xz), np. OpenX6X00.":
-        "Agrega la imagen de tarjeta de un sistema (.img, .img.zip o .img.xz), p. ej. OpenX6X00.",
+        "Agregá la imagen de tarjeta de un sistema (.img, .img.zip o .img.xz), p. ej. OpenX6X00.",
     "system Xiegu z pamięci wewnętrznej radia (nic tam nie jest zmieniane)":
         "El sistema de Xiegu en la memoria interna de la radio (no se cambia nada ahí)",
     "klasyczny Doom (Freedoom), z jądrem pierwszego systemu z obrazu na liście":
@@ -130,15 +130,15 @@ ES = {
     "klasyczny Doom (Freedoom); jądro i parowania Bluetooth z: {name}":
         "Doom clásico (Freedoom); kernel y emparejamientos Bluetooth de: {name}",
     "Najpierw dodaj system z obrazu (np. OpenX6X00): Doom uruchamia się z jego jądrem.":
-        "Primero agrega un sistema desde una imagen (p. ej. OpenX6X00): Doom arranca con su kernel.",
+        "Primero agregá un sistema desde una imagen (p. ej. OpenX6X00): Doom arranca con su kernel.",
     "Bluetooth w Doomie nie zadziała z jądrem {name} (USB tak). Przesuń wyżej np. OpenX6X00.":
-        "El Bluetooth de Doom no funciona con el kernel de {name} (el USB sí). Pon, p. ej., OpenX6X00 por encima.",
+        "El Bluetooth de Doom no funciona con el kernel de {name} (el USB sí). Poné, p. ej., OpenX6X00 por encima.",
     "Szczegóły: {p}":
         "Detalles: {p}",
     "GitHub chwilowo ogranicza zapytania (60 na godzinę bez konta). Spróbuj za {m} min albo wpisz token GitHub w oknie pobierania.":
-        "GitHub limita las consultas por un rato (60 por hora sin cuenta). Prueba en {m} min o escribe un token de GitHub en la ventana de descarga.",
+        "GitHub limita las consultas por un rato (60 por hora sin cuenta). Probá en {m} min o escribí un token de GitHub en la ventana de descarga.",
     "GitHub nie przyjął tokenu: sprawdź go w oknie pobierania.":
-        "GitHub no aceptó el token: revísalo en la ventana de descarga.",
+        "GitHub no aceptó el token: revisalo en la ventana de descarga.",
     "Obrazy pobierane są z wydań projektów na GitHubie. Lista wersji jest odświeżana co 30 minut.":
         "Las imágenes vienen de las versiones publicadas de cada proyecto en GitHub. La lista de versiones se actualiza cada 30 minutos.",
     "Token GitHub (opcjonalnie):":
@@ -174,11 +174,11 @@ ES = {
     "Dodano {name}":
         "{name} agregado",
     "Dodaj kolejny system albo przejdź do „Zapis karty”.":
-        "Agrega otro sistema o sigue con Grabar la tarjeta.",
+        "Agregá otro sistema o seguí con Grabar la tarjeta.",
     "Gotowe":
         "Hecho",
     "Zacznij od „+ Z internetu…”: wybierz system, a aplikacja sama go pobierze.":
-        "Empieza con + Desde internet…: elige un sistema y la aplicación lo descarga.",
+        "Empezá con + Desde internet…: elegí un sistema y la aplicación lo descarga.",
     "osobna dla każdego systemu (własne ustawienia i logi; zalecane)":
         "una por sistema (ajustes y registros propios; recomendado)",
     "Przenieś ustawienia ze starej karty na nową (każdego systemu osobno; kopie zostają na komputerze)":
@@ -196,7 +196,7 @@ ES = {
     "Kopia systemu: {name}":
         "Copia del sistema: {name}",
     "To kopia innego systemu niż ten, do którego ją przywracasz ({name}).":
-        "Esta es una copia de otro sistema distinto de aquel al que la restauras ({name}).",
+        "Esta es una copia de otro sistema distinto de aquel al que la restaurás ({name}).",
     "To kopia systemu {a}, a przywracasz ją do systemu {b}. Wgrać mimo to?":
         "Esta es una copia de {a} y la estás restaurando en {b}. ¿Ponerla de todos modos?",
     "Kopia wszystkich systemów na komputer":
@@ -216,13 +216,13 @@ ES = {
     "Kopie DATA karty w czytniku":
         "Copias de DATA de la tarjeta del lector",
     "zrób kopię ustawień na komputerze albo przywróć je na kartę; osobno dla każdego systemu":
-        "copia los ajustes a la computadora o devuélvelos a la tarjeta; los de cada sistema",
+        "copia los ajustes a la computadora o devolvelos a la tarjeta; los de cada sistema",
     "Własna kopia DATA dla nowej karty…":
         "Copia propia de DATA para la tarjeta nueva…",
     "wskaż kopię (plik .zip albo folder), która trafi na nowo zapisywaną kartę":
-        "elige una copia (un archivo .zip o una carpeta) para la tarjeta que se va a grabar",
+        "elegí una copia (un archivo .zip o una carpeta) para la tarjeta que se va a grabar",
     "Nie widać karty ani partycji DATA. Włóż kartę z radia do czytnika, poczekaj, aż komputer ją pokaże, i kliknij Odśwież.":
-        "No se ve ninguna tarjeta ni partición DATA. Pon la tarjeta de la radio en el lector, espera a que la computadora la muestre y pulsa Actualizar.",
+        "No se ve ninguna tarjeta ni partición DATA. Poné la tarjeta de la radio en el lector, esperá a que la computadora la muestre y pulsá Actualizar.",
     "Kopia na komputer…":
         "Copiar a la computadora…",
     "Przywróć z kopii…":
@@ -242,7 +242,7 @@ ES = {
     "Sprawdź kartę po zapisie (zalecane; bez tego zapis trwa krócej, ale błędna karta nie zostanie wykryta)":
         "Verificar la tarjeta después de grabar (recomendado; sin esto se graba más rápido, pero una tarjeta dañada pasa desapercibida)",
     "Karta zapisana (bez sprawdzenia). Wyjmij ją i włóż do radia.":
-        "La tarjeta está grabada (sin verificar). Sácala y ponla en la radio.",
+        "La tarjeta está grabada (sin verificar). Sacala y ponela en la radio.",
     "Usuń wybór":
         "Quitar la selección",
     "Ta kopia zostanie wgrana na nową kartę przy „Wgraj na kartę” albo „Zapisz jako plik .img…”.":
@@ -254,7 +254,7 @@ ES = {
     "Własna kopia dla nowej karty: {p}  ·  {n} plików, {mb} MB":
         "Copia propia para la tarjeta nueva: {p}  ·  {n} archivos, {mb} MB",
     "To nie wygląda na DATA z radia (brak bazy ustawień). Sprawdź, czy to właściwa kopia.":
-        "Esto no parece una DATA de radio (no tiene base de ajustes). Comprueba que sea la copia correcta.",
+        "Esto no parece una DATA de radio (no tiene base de ajustes). Comprobá que sea la copia correcta.",
     "Przywróć DATA na kartę":
         "Restaurar DATA en la tarjeta",
     "Kopia zostanie wgrana na kartę w czytniku: {vol}. Pliki o tych samych nazwach zostaną zastąpione.":
@@ -284,7 +284,7 @@ ES = {
     "Kopie ustawień (DATA)":
         "Copias de los ajustes (DATA)",
     "Ustawienia radia są na partycji DATA karty. Tu zrobisz ich kopię na komputerze, przywrócisz je na kartę w czytniku albo wskażesz własną kopię dla nowej karty.":
-        "Los ajustes de la radio están en la partición DATA de la tarjeta. Aquí los copias a la computadora, los devuelves a la tarjeta del lector o eliges una copia propia para la tarjeta nueva.",
+        "Los ajustes de la radio están en la partición DATA de la tarjeta. Acá los copiás a la computadora, los devolvés a la tarjeta del lector o elegís una copia propia para la tarjeta nueva.",
     "Ustawienia na karcie w czytniku:":
         "Ajustes en la tarjeta del lector:",
     "DATA każdego systemu…":
@@ -318,7 +318,7 @@ ES = {
     "Przywrócić DATA systemu {name} z {zip}?\n\nObecna zawartość tej DATA zostanie zastąpiona.":
         "¿Restaurar la DATA de {name} desde {zip}?\n\nLo que hay ahora en esta DATA será reemplazado.",
     "DATA systemu {name}: przywrócono {n} plików. Wysuń kartę bezpiecznie i włóż ją do radia.":
-        "DATA de {name}: {n} archivos restaurados. Expulsa la tarjeta de forma segura y ponla en la radio.",
+        "DATA de {name}: {n} archivos restaurados. Expulsá la tarjeta de forma segura y ponela en la radio.",
     "Przywracanie DATA: {name}":
         "Restaurando DATA: {name}",
     "Zrzut DATA":
@@ -358,15 +358,15 @@ ES = {
     "Przywrócić ustawienia z {zip} na {vol}?\nPliki o tych samych nazwach zostaną zastąpione.":
         "¿Restaurar los ajustes de {zip} en {vol}?\nLos archivos con el mismo nombre serán reemplazados.",
     "Przywrócono {n} plików na {vol}. Wysuń kartę bezpiecznie i włóż ją do radia.":
-        "{n} archivos restaurados en {vol}. Expulsa la tarjeta de forma segura y ponla en la radio.",
+        "{n} archivos restaurados en {vol}. Expulsá la tarjeta de forma segura y ponela en la radio.",
     "Mysz i klawiatura Bluetooth: sparuj je najpierw w {name}, pierwszym systemie z obrazu na liście. Szczegóły: Przeczytaj najpierw.":
-        "Mouse y teclado Bluetooth: emparéjalos primero en {name}, el primer sistema de imagen de la lista. Más: Leer primero.",
+        "Mouse y teclado Bluetooth: emparejalos primero en {name}, el primer sistema de imagen de la lista. Más: Leer primero.",
     "Doom uruchamia się z jądrem systemu z obrazu (np. OpenX6X00). Dodaj najpierw taki system, potem Dooma.":
-        "Doom arranca con el kernel de un sistema de imagen (p. ej. OpenX6X00). Agrega primero ese sistema y después Doom.",
+        "Doom arranca con el kernel de un sistema de imagen (p. ej. OpenX6X00). Agregá primero ese sistema y después Doom.",
     "Nazwa w menu (litery bez polskich znaków, do 28):":
         "Nombre en el menú (letras simples, hasta 28):",
     "Zaznacz system na liście, potem Logo…":
-        "Elige un sistema de la lista y luego Logo…",
+        "Elegí un sistema de la lista y luego Logo…",
     "Logo dla {name}":
         "Logo de {name}",
     "Obrazki":
@@ -374,7 +374,7 @@ ES = {
     "Nie da się wczytać obrazka: {e}":
         "No se puede leer la imagen: {e}",
     "Najpierw dodaj systemy.":
-        "Primero agrega sistemas.",
+        "Primero agregá sistemas.",
     "Podgląd wymaga biblioteki Pillow (jest w gotowych aplikacjach).":
         "La vista previa necesita la biblioteca Pillow (las aplicaciones listas la traen).",
     "Podgląd menu na ekranie radia (800×480)":
@@ -384,7 +384,7 @@ ES = {
     "Nie udało się odczytać listy kart: {e}":
         "No se pudieron listar las tarjetas: {e}",
     "brak karty SD — włóż kartę i kliknij Odśwież":
-        "sin tarjeta SD: pon una y pulsa Actualizar",
+        "sin tarjeta SD: poné una y pulsá Actualizar",
     "Czas i rozmiar DATA muszą być liczbami":
         "El tiempo y el tamaño de DATA deben ser números",
     "Zapisz obraz karty":
@@ -404,7 +404,7 @@ ES = {
     "Zapis na kartę (uprawnienia administratora)":
         "Grabando la tarjeta (permisos de administrador)",
     "Karta gotowa i sprawdzona. Wyjmij ją i włóż do radia.":
-        "La tarjeta está lista y verificada. Sácala y ponla en la radio.",
+        "La tarjeta está lista y verificada. Sacala y ponela en la radio.",
     "Zapis przerwany (odmowa uprawnień administratora?)":
         "Grabación detenida (¿permisos de administrador denegados?)",
     "Program zapisujący nie wystartował (odmowa uprawnień?)":
@@ -430,7 +430,7 @@ ES = {
     "Pobierz system z internetu":
         "Descargar un sistema desde internet",
     "Wybierz system i wersję. Najnowsza jest na górze listy.":
-        "Elige un sistema y una versión. La más nueva está arriba de la lista.",
+        "Elegí un sistema y una versión. La más nueva está arriba de la lista.",
     "sprawdzam…":
         "revisando…",
     "Dodaj":
@@ -456,7 +456,7 @@ ES = {
     "klasyczne oprogramowanie R1CBU (gdyuldin)":
         "el software clásico de R1CBU (gdyuldin)",
     "GitHub chwilowo ogranicza zapytania (limit na godzinę). Spróbuj za kilka minut.":
-        "GitHub está limitando las consultas por ahora (límite por hora). Prueba en unos minutos.",
+        "GitHub está limitando las consultas por ahora (límite por hora). Probá en unos minutos.",
     "brak połączenia z GitHubem: {e}":
         "sin conexión con GitHub: {e}",
     "nieoczekiwana odpowiedź GitHuba":
@@ -468,9 +468,9 @@ ES = {
     "suma kontrolna pobranego pliku się nie zgadza":
         "la suma de verificación del archivo descargado no coincide",
     "to obraz instalacyjny Xiegu (wgrywa system do eMMC radia), nie system do uruchamiania z karty. Dodaj pozycję \"Xiegu z eMMC\".":
-        "esta es la imagen instaladora de Xiegu (graba el sistema en la eMMC de la radio), no un sistema para arrancar desde la tarjeta. Agrega la entrada \"Xiegu desde la eMMC\".",
+        "esta es la imagen instaladora de Xiegu (graba el sistema en la eMMC de la radio), no un sistema para arrancar desde la tarjeta. Agregá la entrada \"Xiegu desde la eMMC\".",
     "to już karta multiboot (z tej aplikacji); dodaj obrazy pojedynczych systemów":
-        "esta ya es una tarjeta multiarranque (hecha por esta aplicación); agrega las imágenes de cada sistema por separado",
+        "esta ya es una tarjeta multiarranque (hecha por esta aplicación); agregá las imágenes de cada sistema por separado",
     "Doom potrzebuje na karcie także systemu z obrazu (np. OpenX6X00): uruchamia się z jego jądrem":
         "Doom necesita además un sistema de imagen en la tarjeta (p. ej. OpenX6X00): arranca con su kernel",
     "rootfs {mb} MB, jądro z: {name}":
@@ -480,7 +480,7 @@ ES = {
     "Start F${bm_default} za ${bm_left} s":
         "Inicio F${bm_default} en ${bm_left} s",
     "Wybierz system klawiszem F1-F{n}":
-        "Elige un sistema con F1-F{n}",
+        "Elegir sistema con F1-F{n}",
     "Wylaczanie radia...":
         "Apagando la radio...",
     "Bez automatycznego startu: system uruchamia się dopiero po wciśnięciu klawisza F":
@@ -529,16 +529,16 @@ Mouse y teclado USB
   Espacio abre, Esc menú, F2/F3 guardar/cargar.
 
 Mouse y teclado Bluetooth
-  1. Arranca en la radio ese primer sistema de la lista (p. ej. OpenX6X00 o CX8ANM) y empareja ahí el
+  1. Arrancá en la radio ese primer sistema de la lista (p. ej. OpenX6X00 o CX8ANM) y emparejá ahí el
      mouse y el teclado (OpenX6X00: Settings > Bluetooth > DEVICES).
-  2. Apaga la radio normalmente y arranca Doom.
-  3. Mueve el mouse o pulsa una tecla: se conectan solos en alrededor de un minuto.
+  2. Apagá la radio normalmente y arrancá Doom.
+  3. Mové el mouse o tocá una tecla: se conectan solos en alrededor de un minuto.
   Doom usa el Bluetooth de ese sistema y sus emparejamientos guardados, sin cambiar nada en él.
   Funciona con OpenX6X00, CX8ANM, OpenX6100 y 1KO125. Con el R1CBU clásico solo funciona USB.
 
 Sonido
   Efectos y música. El archivo doom.txt en la partición BOOT de la tarjeta: volume= y music= (0–200 %),
   rxvol= (0–55, 45 por defecto) es el volumen del parlante de la radio, headphone= (0–63) el nivel hacia
-  la placa de la radio (bájalo si cruje), rxmute=1 silencia el receptor, bluetooth=0 apaga el BT.
+  la placa de la radio (bajalo si cruje), rxmute=1 silencia el receptor, bluetooth=0 apaga el BT.
   Registro: doom-log.txt en la partición BOOT (lo que Doom encontró: sonido, USB, Bluetooth).
 """
