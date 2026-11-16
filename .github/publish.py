@@ -44,6 +44,31 @@ def notes(v):
                 "**A test version (pre-release): for checking before the release, not for everyday use.**\n\n"
                 f"Windows {v['windows']} · macOS {v['macos']} · Linux {v['linux']}\n\n"
                 "Do sprawdzenia: lista w README na gałęzi `test-data`, rozdział „Wersja testowa: co sprawdzić”.\n")
+    if "cx8anm" in v["windows"] + v["macos"] + v["linux"]:
+        return CX8ANM_NOTES.format(w=v["windows"], m=v["macos"], l=v["linux"], msg=msg or "ver el historial") + "\n---\n\n" + polish(v, msg)
+    return polish(v, msg)
+
+
+# The CX8ANM edition (condoruy's fork): Spanish first, then SQ6RT's own notes
+CX8ANM_NOTES = """**Edición CX8ANM** de Xiegu Multi Patcher (SQ6RT), con la aplicación en **español**.
+
+Varios sistemas en una sola tarjeta SD para el Xiegu X6100, con un menú en la pantalla de la radio (F1–F5).
+
+**Descargá la aplicación para tu computadora:**
+- Windows {w}: `Xiegu-Multi-Patcher-Windows.zip` (descomprimí y abrí `Xiegu Multi Patcher.exe` desde la carpeta)
+- macOS {m}: `Xiegu-Multi-Patcher-macOS.zip` (descomprimí; la primera vez: Ajustes del Sistema → Privacidad y seguridad → Abrir igual)
+- Linux {l}: `Xiegu-Multi-Patcher-Linux` (`chmod +x`; para grabar la tarjeta hace falta pkexec)
+
+El idioma se elige arriba a la derecha (Español / English / Polski). Qué cambia frente a la versión de SQ6RT:
+[docs/CX8ANM.md](https://github.com/condoruy/Xiegu6x00-Multi-Boot/blob/main/docs/CX8ANM.md).
+
+Último cambio: {msg}
+
+Aplicación original: SQ6RT (GPL-3.0), https://github.com/TomekR1/Xiegu6x00-Multi-Boot
+"""
+
+
+def polish(v, msg):
     return f"""Kilka systemów na jednej karcie SD dla Xiegu X6100, z menu na ekranie radia (F1–F5).
 
 **Pobierz aplikację dla swojego komputera** (każda ma swój numer wersji):

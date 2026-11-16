@@ -1,8 +1,9 @@
 # Línea de prueba CX8ANM (`cx8anm-prueba`)
 
 Fork de [TomekR1/Xiegu6x00-Multi-Boot](https://github.com/TomekR1/Xiegu6x00-Multi-Boot) (SQ6RT, GPL-3.0)
-mantenido por CX8ANM. Esta rama es solo para pruebas: GitHub Actions la compila y la prueba, pero
-**nunca publica una versión** (las versiones salen únicamente de `main` o de un tag `v*`).
+mantenido por CX8ANM. Lo probado en `cx8anm-prueba` está publicado en `main`: cada subida a `main` con un número
+nuevo en `x6100mb/assets/versions.json` (`…-cx8anm.N`) saca una versión en Releases. Las ramas `cx8anm-*` se
+compilan y prueban sin publicar.
 
 ## Qué es este proyecto (y qué no es)
 

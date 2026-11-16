@@ -1,5 +1,10 @@
 # Xiegu Multi Patcher
 
+> **Edición CX8ANM (español).** Este fork de [SQ6RT/Xiegu6x00-Multi-Boot](https://github.com/TomekR1/Xiegu6x00-Multi-Boot)
+> trae la aplicación en español (elegí **Español** arriba a la derecha) y marca cada sistema del menú para que
+> [CX8ANM](https://github.com/condoruy/OpenX6X00-CX8ANM) sepa que está en una tarjeta multiarranque. Descargas en
+> **[Releases](../../releases/latest)**; detalles en [docs/CX8ANM.md](docs/CX8ANM.md). Aplicación original: SQ6RT (GPL-3.0).
+
 Kilka systemów na jednej karcie SD dla **Xiegu X6100**. Przy włączaniu radia na ekranie
 pojawia się menu z logo każdego systemu, a system wybierasz klawiszem **F1–F5** pod ekranem.
 Bez wciśnięcia klawisza po kilku sekundach startuje system domyślny, a klawisz **POWER** w menu
