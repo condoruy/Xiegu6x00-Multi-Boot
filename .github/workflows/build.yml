@@ -6,7 +6,7 @@ name: Build
 on:
   push:
     tags: ["v*"]
-    branches: [main]
+    branches: [main, "cx8anm-*"]   # cx8anm-*: test lines, built and tested, never published
   workflow_dispatch:
     inputs:
       release_tag:

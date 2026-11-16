@@ -1,14 +1,14 @@
-"""The app's languages: Polish (the source texts) and English.
+"""The app's languages: Polish (the source texts), English and Spanish (CX8ANM test line, i18n_es.py).
 
 t("Polski tekst {x}", x=...) gives the text in the chosen language. The choice is kept in
 settings.json in the user's config folder; the first time, the system's language decides
-(Polish on a Polish system, English otherwise).
+(Polish on a Polish system, Spanish on a Spanish one, English otherwise).
 """
 import json
 import locale
 import os
 
-LANGS = {"pl": "Polski", "en": "English"}
+LANGS = {"pl": "Polski", "en": "English", "es": "Español"}
 _lang = None
 
 
@@ -22,7 +22,7 @@ def _system_lang():
     for var in ("LC_ALL", "LC_MESSAGES", "LANG"):
         v = os.environ.get(var, "")
         if v:
-            return "pl" if v.lower().startswith("pl") else "en"
+            return _code(v)
     try:
         loc = locale.getlocale()[0] or ""
     except Exception:
@@ -38,10 +38,20 @@ def _system_lang():
             elif sys.platform.startswith("win"):
                 import ctypes
                 lcid = ctypes.windll.kernel32.GetUserDefaultUILanguage()
-                loc = "pl" if (lcid & 0x3FF) == 0x15 else "en"
+                loc = {0x15: "pl", 0x0A: "es"}.get(lcid & 0x3FF, "en")
         except Exception:
             loc = ""
-    return "pl" if loc.lower().startswith("pl") or "polish" in loc.lower() else "en"
+    return _code(loc)
+
+
+def _code(loc):
+    """pl, es or en from a locale name (pl_PL, es_UY.UTF-8, Spanish_Uruguay, ...)"""
+    loc = loc.lower()
+    if loc.startswith("pl") or "polish" in loc:
+        return "pl"
+    if loc.startswith("es") or "spanish" in loc:
+        return "es"
+    return "en"
 
 
 def lang():
@@ -101,7 +111,13 @@ def set_setting(key, value):
 
 
 def t(text, **kw):
-    s = EN.get(text, text) if lang() == "en" else text
+    code = lang()
+    if code == "es":
+        s = ES.get(text) or EN.get(text, text)      # not translated yet: English, then Polish
+    elif code == "en":
+        s = EN.get(text, text)
+    else:
+        s = text
     return s.format(**kw) if kw else s
 
 
@@ -500,3 +516,6 @@ Sound
   Log: doom-log.txt on the BOOT partition (what Doom found: sound, USB, Bluetooth).
 """,
 }
+
+from .i18n_es import ES, DOOM_README_ES  # noqa: E402
+DOOM_README["es"] = DOOM_README_ES
