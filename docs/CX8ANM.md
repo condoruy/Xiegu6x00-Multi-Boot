@@ -82,6 +82,7 @@ Plan de port (requiere probar en un X6200 real, por eso no está en esta rama):
   polaco. Los textos que muestra la radio en U-Boot van sin tildes (la fuente de la consola no las tiene).
 - Prueba automática `tests/test_i18n_es.py`: todos los textos traducidos, mismas `{variables}`, textos de
   la radio en ASCII.
+- Marca `x6100mb=<tecla>` en los bootargs de cada sistema: CX8ANM (rama `cx8anm-multiboot`) la lee y avisa que una imagen nueva va por la app.
 - CI: las ramas `cx8anm-*` se compilan y prueban (apps de Windows/macOS/Linux en *Artifacts* de Actions),
   sin publicar.
 

@@ -80,6 +80,8 @@ class ComposeTest(unittest.TestCase):
             script = parse_script_image(boot.read_file("boot.scr"))
             self.assertIn("root=/dev/mmcblk0p2", script)
             self.assertIn("root=/dev/mmcblk0p5", script)
+            self.assertRegex(script, r"root=/dev/mmcblk0p2 [^\"]* x6100mb=1\"")    # the marker CX8ANM reads
+            self.assertRegex(script, r"root=/dev/mmcblk0p5 [^\"]* x6100mb=2\"")
             self.assertIn("setenv bm_default 2", script)
             self.assertIn("setenv bm_secs 3", script)
             self.assertIn("itest ${i} -ge ${bm_ticks}", script)

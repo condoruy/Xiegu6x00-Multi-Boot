@@ -266,7 +266,9 @@ def menu_script(entries, default, timeout_s, title="X6100 MULTIBOOT", gfx=False,
             if s_.initrd_file:
                 loads.append("fatload mmc 0:1 %s %s/INITRD" % (s_.initrd_addr, d))
             boot = "%s %s %s %s" % (s_.boot_cmd, s_.kernel_addr, s_.initrd_addr or "-", s_.fdt_addr or "")
-            cmd = (pre + 'setenv bootargs "%s"; ' % s_.bootargs_for(e["part"]) +
+            # x6100mb=<key>: tells the started system it is one of a multiboot card's (CX8ANM reads it:
+            # a new card image has to go through this app then, not straight onto the card)
+            cmd = (pre + 'setenv bootargs "%s x6100mb=%d"; ' % (s_.bootargs_for(e["part"]), n) +
                    "".join("if %s; then " % l for l in loads) + boot.strip() + "; " +
                    "fi; " * len(loads) +
                    'setenv stdout serial,vidconsole; echo "%s did not start"; sleep 3; setenv stdout serial'
